@@ -1,12 +1,11 @@
 ![Corda](https://www.corda.net/wp-content/uploads/2016/11/fg005_corda_b.png)
 
-# CorDapp Template
+# CorDapp Contracts
 
-Welcome to the CorDapp template. The CorDapp template is a stubbed-out CorDapp 
-which you can use to bootstrap your own CorDapp projects.
+Welcome to the CorDapp Contract.
 
 **This is the KOTLIN version of the CorDapp template. For the JAVA version click 
-[here](https://github.com/corda/cordapp-template-java/).**
+[here](https://docs.corda.net/tutorial-contract.html).**
 
 ## Pre-Requisites
 
@@ -25,13 +24,9 @@ Corda docsite.
 
 ## Getting Set Up
 
-To get started, clone this repository with:
-
-     git clone https://github.com/corda/cordapp-template-kotlin.git
-
 And change directories to the newly cloned repo:
 
-     cd cordapp-template-kotlin
+     cd cordapp-contracts
 
 ## Building the CorDapp template:
 
@@ -94,22 +89,6 @@ And the static web content is served from:
 
      /web/template
 
-## Using the Example RPC Client
-
-The `ExampleClient.kt` file is a simple utility which uses the client
-RPC library to connect to a node and log its transaction activity.
-It will log any existing states and listen for any future states. To build 
-the client use the following Gradle task:
-
-     ./gradlew runTemplateClient
-
-To run the client:
-
-**Via IntelliJ:**
-
-Select the 'Run Template RPC Client'
-run configuration which, by default, connect to PartyA (RPC port 10006). Click the
-Green Arrow to run the client.
 
 **Via the command line:**
 
